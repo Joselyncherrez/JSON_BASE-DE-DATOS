@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <head>
+        <meta charset="utf-8">
+        <title>Registro de usuarios</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+        <link rel='stylesheet' type='text/css' href='assets\css\bootstrap.min.css'>
+        <link rel='stylesheet' href='assets\css\estilos.css'>
+        
+    </head>
+
+</head>
+<body>
+    <fieldset>
+        <form method="post" action="registrar.php">
+            <h1>Formulario de usuario</h1>
+            <p>POR FAVOR, INGRESE SUS DATOS:</p><br/>
+            <div class="form-group">
+                <label for="name" class="txt_negrita"> NOMBRE:</label>
+                <input type="text" class="form-control" name="name" id="name" aria-describedby="nameHelp">
+                <br/>
+            </div>
+            <div class="form-group">
+                <label for="lastname" class="txt_negrita"> APELLIDO:</label>
+                <input type="text" class="form-control" name="lastname" id="lastname" aria-describedby="lastnameHelp">
+                <br/>
+            </div>
+            <div class="form-group">
+                <label for="mail" class="txt_negrita"> CORREO ELECTRONICO:</label>
+                <input type="text" class="form-control" name="mail" id="mail" aria-describedby="mailHelp">
+                <br/>
+            </div>
+            
+                <div class="msg mt-3 mb-3"></div>
+                    
+                        <button type="submit" class="btn btn-primary" value="Registrar">Registrar</button>
+                  
+
+        </form>
+    </fieldset>
+   
+
+</body>
+
+    
+</html>

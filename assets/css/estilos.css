@@ -1,0 +1,35 @@
+header {
+    color: #545454;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.table {
+    margin: auto;
+    width: 50% !important; 
+ }
+
+ form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 500px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 3em;
+
+  }
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-bottom: 40px;
+    margin: 0px 10px;
+    
+  }
+
+  body{
+  
+        background-color: #f5f4f4;
+    
+      
+  }
